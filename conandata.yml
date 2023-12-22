@@ -1,0 +1,9 @@
+license: GLP
+author: zenggui,anoob@sina.cn
+url: xxxxxx
+repository: http://172.20.180.12:8050/yanfa4/third/sensors_analytics_sdk
+external_repository: https://github.com/CrealityOfficial/sensors_analytics_sdk
+description: sensors_analytics_sdk
+topics: sensors_analytics_sdk,sensors_analytics_sdk,sensors_analytics_sdk
+build_deps: zlib_static/1.0.0,curl/0.0.2
+search_deps: zlib_static/1.0.0,curl/0.0.2
