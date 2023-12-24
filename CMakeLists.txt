@@ -7,10 +7,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(include)
 
 __cc_find(zlib_static)
-__cc_find(curl)
-set(LIBS zlib_static curl)
+__cc_find(curl_static)
+set(ILIBS zlib_static curl_static)
 __add_real_target(sensors_analytics_sdk lib SOURCE src/sensors_analytics_sdk.cpp src/sensors_network.cpp src/sensors_utils.cpp
-											LIB ${LIBS}
+											ILIB ${ILIBS}
 											INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include/
 											)
 
